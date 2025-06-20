@@ -21,11 +21,3 @@ MVVM: UserViewModel + UserRepository + Compose UI.
 Networking: Retrofit + OkHttp interceptor for failures.
 
 Local Storage: Room database (UserEntity) with a reactive Flow.
-
-Getting Started
-
-Clone the repo.
-
-Add dependencies: Retrofit, Moshi, OkHttp, Room, Coil.
-
-Run on an Android device/emulator.
