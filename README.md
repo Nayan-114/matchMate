@@ -21,3 +21,11 @@ MVVM: UserViewModel + UserRepository + Compose UI.
 Networking: Retrofit + OkHttp interceptor for failures.
 
 Local Storage: Room database (UserEntity) with a reactive Flow.
+
+Future Enhancement
+
+If given more time, I would implement in-app messaging and real-time notifications so that once two users both accept a match, they can chat directly within the app. This would involve:
+
+*A lightweight messaging backend (e.g., Firebase Realtime Database or WebSocket server)
+
+*Push notifications for new messages
